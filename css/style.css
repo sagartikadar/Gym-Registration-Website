@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    
+    padding: 0px;
+    /* background-position: 2rem 3rem;
+    background-size: 151%;
+     */
+   
+}
+
+    
+
+
+
+
+.head1{
+   
+    background-color: rgb(21 58 106);
+    margin-top: 0px;
+    padding: 7px 22px;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9;
+   
+   
+
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 18px;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+.left img {
+    width: 91px;
+    filter: invert(100%);
+    margin-bottom: -5px;
+    position: relative;
+    top: -12x;
+    margin-top: -12px;
+}
+
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 52%;
+    margin: 18px auto;
+    position: sticky;
+    
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 18px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    padding: 34px 38px;
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.navbar li {
+    display: inline-block;
+    
+    
+}
+
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+.navbar li a:active{
+    color: crimson;
+}
+
+.btn {
+    color: rgb(1 233 1);
+    margin: 6px 13px;
+    padding: 2px 9px;
+    font-family: 'Kanit', sans-serif;
+    /* background-color: rgb(216, 216, 216); */
+    border: 2px solid rgb(1 233 1);
+    border-radius: 15px;
+    cursor: pointer;
+    background: none;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+#mh{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: -3;
+}
+
+.container {
+    width: 696px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 64px;
+    margin-left: 47px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    /* text-decoration: underline; */
+    padding: 17px 29px;
+    font-size: 48px;
+    margin: 4px auto;
+}
+
+.group input {
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    width: 540px;
+    padding: 7px;
+    margin: 16px auto;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+
+
+
+}
+
+/* .group input:hover {
+    background-color: rgb(202, 202, 202);
+} */
+
+.container button {
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 21px;
+    background-color: rgb(46, 110, 194);
+    color: white;
+    border-radius: 5px;
+    border: 0px none;
+    cursor: pointer;
+    padding: 9px;
+}
+
+.container button:hover {
+    background-color: rgb(32, 76, 134);
+}
+.chat{
+    z-index: 9;
+}
+
+.chat img {
+    width: 80px;
+    position: fixed;
+    top: 656px;
+    left: 1390px;
+    cursor: pointer;
+   
+}
+
+/* p{
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 3px;
+    position: fixed;
+    top: 624px;
+    left: 1390px;
+   background-color: rgb(217, 217, 217);
+   visibility: ; 
+}
+p:hover{
+    visibility: visible;
+} */
+.foot{
+   
+    margin: 0px auto;
+    position: relative;
+    top: 781px;
+}
+.foot p{
+    
+    text-align: center;
+    color: white;
+    background-color: grey;
+    font-size: 22px;
+   margin: 0px auto;
+}
