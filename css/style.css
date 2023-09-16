@@ -1,22 +1,23 @@
 body {
     margin: 0px;
     padding: 0px;
-    
-    
+
+    box-sizing: border-box;
+    background-color: #101616;
     padding: 0px;
     /* background-position: 2rem 3rem;
     background-size: 151%;
      */
-   
+
 }
 
-    
 
 
 
 
-.head1{
-   
+
+.head1 {
+
     background-color: rgb(21 58 106);
     margin-top: 0px;
     padding: 7px 22px;
@@ -25,8 +26,8 @@ body {
     top: 0;
     left: 0;
     z-index: 9;
-   
-   
+
+
 
 }
 
@@ -43,7 +44,7 @@ ul {
     position: absolute;
     left: 40px;
     top: 18px;
-    font-family:'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 
 }
@@ -64,7 +65,7 @@ ul {
     width: 52%;
     margin: 18px auto;
     position: sticky;
-    
+
 }
 
 .right {
@@ -74,11 +75,13 @@ ul {
     right: 40px;
     top: 18px;
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0;
     left: 0;
 }
+
 .navbar a {
     list-style-type: none;
     color: white;
@@ -91,16 +94,16 @@ ul {
 
 .navbar li {
     display: inline-block;
-    
-    
+
+
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
     color: grey;
     text-decoration: underline;
 }
 
-.navbar li a:active{
+.navbar li a:active {
     color: crimson;
 }
 
@@ -115,12 +118,14 @@ ul {
     cursor: pointer;
     background: none;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(255, 255, 255);
 
 }
-#mh{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+#mh {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: -3;
 }
 
@@ -179,7 +184,8 @@ h1 {
 .container button:hover {
     background-color: rgb(32, 76, 134);
 }
-.chat{
+
+.chat {
     z-index: 9;
 }
 
@@ -189,7 +195,7 @@ h1 {
     top: 656px;
     left: 1390px;
     cursor: pointer;
-   
+
 }
 
 /* p{
@@ -206,17 +212,49 @@ h1 {
 p:hover{
     visibility: visible;
 } */
-.foot{
-   
+.foot {
+
     margin: 0px auto;
     position: relative;
     top: 781px;
 }
-.foot p{
-    
+
+.foot p {
+
     text-align: center;
     color: white;
     background-color: grey;
     font-size: 22px;
-   margin: 0px auto;
+    margin: 0px auto;
+    bottom: 0;
+}
+
+#reviews {
+    /* border: 2px solid white; */
+    height: 250px;
+    margin: 20px;
+    margin-top: 200px;
+    color: white;
+    /* font-size: 30px; */
+    padding: 10px;
+    margin-left: 90px;
+}
+
+#reviews, p{
+    font-size: larger;
+}
+
+#cards {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.cards {
+    border-radius: 5px;
+    height: 100px;
+    width: 40%;
+    border: 2px solid rgb(250, 250, 250);
+    margin: 60px;
+    color: white;
+    padding: 20px;
 }
